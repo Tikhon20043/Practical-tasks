@@ -11,6 +11,6 @@ for row in matrix:
 # Преобразование  матрицы
 transformed_matrix = [[row[i] if i == index else row[i] * 2 for i in range(len(row))] for index, row in enumerate(matrix)]
 
-print("\n Преобразованная мартица:")
+print("\nПреобразованная мартица:")
 for row in transformed_matrix:
     print(row)
