@@ -12,6 +12,6 @@ for row in original_matrix:
 modified_matrix = [[0 if element > 10 else element for element in row] for row in original_matrix]
 
 # Вывод изменённой матрицы
-print("\nИзменённая матрица:")
+print("\n Изменённая матрица:")
 for row in modified_matrix:
     print(row)
